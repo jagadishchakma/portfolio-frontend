@@ -1,0 +1,145 @@
+/*  navbar css start */
+.navbar{
+  background-color: #333;
+  z-index: 1200;
+}
+.navbar-brand, .google-font {
+  font-family: "Itim", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
+.navbar-brand sup{
+  color:rgb(255, 205, 69)
+}
+.navbar-brand:hover{
+  color: white
+}
+.navbar .nav-link.active{
+  color: white
+}
+
+.navbar a{
+  color: white
+}
+
+.navbar-nav a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar-nav a::before,
+.navbar-nav a::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  background: rgb(255, 205, 69);
+  transition: all 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(255, 205, 69);
+}
+
+.navbar-nav a::before {
+  left: 50%;
+  bottom: -5px;
+  width: 0;
+}
+
+.navbar-nav a::after {
+  right: 50%;
+  bottom: -5px;
+  width: 0;
+}
+
+.navbar-nav a.active::before,
+.navbar-nav a.active::after {
+  width: 50%;
+}
+
+
+/*  navbar css end */
+
+
+/* global css start  */
+body {
+  background-color: black !important;
+}
+
+.main-content {
+  margin: 0 auto;
+  color: white;
+}
+
+.content {
+  max-width: 1200px;
+  padding: 10px;
+}
+
+.mysection {
+  padding-top: 100px;
+  margin-bottom: 10px;
+}
+
+.mysection .title {
+  margin-bottom: 50px;
+}
+
+.mysection .title * {
+  margin: 0;
+  padding: 0;
+}
+
+.mysection-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.mysection-subtitle {
+  color: rgb(255, 205, 69);
+  text-align: center
+}
+
+.text-color {
+  color: rgb(255, 205, 69)
+}
+
+.bg-color {
+  background-color: rgb(51, 51, 51);
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px;
+  /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  /* Track color (light gray) */
+  border-radius: 10px;
+  /* Optional: rounded track edges */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 205, 69);
+  /* Scroll thumb color */
+  border-radius: 10px;
+  /* Rounded thumb edges */
+  border: 3px solid #f0f0f0;
+  /* Adds space around thumb */
+}
+
+/* Optional: for Firefox */
+* {
+  scrollbar-width: thin;
+  /* Thin scrollbar */
+  scrollbar-color: rgb(255, 205, 69) #f0f0f0;
+  /* Thumb and track colors */
+}
+
+/* global css end  */
+

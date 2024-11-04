@@ -1,0 +1,18 @@
+.my-contact{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.my-contact form label{
+    color: black
+}
+.my-contact form textarea{
+    height: 200px !important;
+}
+
+.my-contact strong{
+    font-size: 25px;
+}
+.my-contact i{
+    color: rgb(255, 205, 69);
+    font-size: 25px;
+}

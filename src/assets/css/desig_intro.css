@@ -1,0 +1,11 @@
+.desig-intro{
+    max-width: 600px;
+    margin: 0 auto;
+    min-height: 200px;
+}
+.desig-intro-divider{
+    background-color: rgb(255, 205, 69);
+    width: 2px;
+    padding: 0;
+    min-height: 200px;
+}
