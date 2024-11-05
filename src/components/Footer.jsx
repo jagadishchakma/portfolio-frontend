@@ -1,6 +1,7 @@
 import React from 'react';
 import '../assets/css/footer.css';
 import { Facebook, GitHub, LinkedIn } from '@mui/icons-material';
+import Year from '../libs/year';
 
 const Footer = () => {
     return (
@@ -16,7 +17,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="col-md-6 col-12">
-                        <p className='text-end'>© All Rights Reserved 2024 | Jagadish Chakma</p>
+                        <p className='text-end'>© All Rights Reserved {Year()} | Jagadish Chakma</p>
                     </div>
                 </div>
             </div>

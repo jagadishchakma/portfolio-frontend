@@ -56,7 +56,7 @@ const ContactForm = ({ animation, id, key }) => {
                             </div>
                             <div>
                                 <strong>Email</strong><br />
-                                <span>jadishchakma401@gmail.com</span>
+                                <span>jagadishchakma401@gmail.com</span>
                             </div>
                         </div>
                         <div className="d-flex justify-contnet-between gap-3 mb-5">
